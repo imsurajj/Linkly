@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     google: "Ma9zNKrnRDgOafD3KKmvRwkxJkbg63tWEgIjWbP2jUM"
   },
   icons: {
-    icon: '/logo.svg',
-    shortcut: '/logo.svg',
-    apple: '/logo.svg',
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
   },
   openGraph: {
     title: "Linkly - Free URL Shortener | Shorten Links Instantly",
