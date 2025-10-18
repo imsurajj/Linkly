@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://linkly.iamsuraj.me/sitemap.xml',
+    sitemap: 'https://freelinkly.vercel.app/sitemap.xml',
   }
 }

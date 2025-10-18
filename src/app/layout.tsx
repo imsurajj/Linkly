@@ -70,7 +70,7 @@ export default function RootLayout({
               "@type": "WebApplication",
               "name": "Linkly",
               "description": "Free URL shortener service to shorten long URLs instantly",
-              "url": "https://linkly.com",
+              "url": "https://freelinkly.vercel.app/",
               "applicationCategory": "UtilityApplication",
               "operatingSystem": "Web Browser",
               "offers": {
