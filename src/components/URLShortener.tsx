@@ -99,16 +99,16 @@ export default function URLShortener() {
             <Input
               id="url"
               type="url"
-              placeholder="https://example.com/very-long-url"
+              placeholder="Paste a long URL to shorten"
               value={url}
               onChange={(e) => setUrl(e.target.value)}
-              className="flex-1 h-12 text-base"
+              className="flex-1 h-24 sm:h-12 text-lg sm:text-sm"
               disabled={loading}
             />
              <Button 
                type="submit" 
                disabled={loading || !url.trim()}
-               className="h-12 px-8 bg-blue-600 hover:bg-blue-700 text-white font-medium"
+               className="h-12 sm:h-12 px-6 sm:px-8 bg-blue-600 hover:bg-blue-700 text-white font-medium text-base sm:text-sm"
              >
                {loading ? (
                  <div className="flex items-center gap-2">
